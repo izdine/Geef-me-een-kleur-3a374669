@@ -5,7 +5,7 @@ document.querySelector('button')
 button.onclick = myFunction;
 
 var colorWell
-var defaultColor = "#0000ff";
+var defaultColor = "#ffffff";
 window.addEventListener("load", startup, false);
 
 function startup() {
