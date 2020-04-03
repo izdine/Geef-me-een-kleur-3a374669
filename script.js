@@ -6,6 +6,7 @@ button.onclick = myFunction;
 
 var colorWell
 var defaultColor = "#ffffff";
+
 window.addEventListener("load", startup, false);
 
 function startup() {
@@ -27,6 +28,7 @@ function updateAll(event) {
     achtergrondkleur.style.backgroundColor = event.target.value;
   });
 }
+// kleur reset
 function myFunction() {
   document.getElementsByTagName("BODY")[0].style.backgroundColor = event.target.value;
 }
